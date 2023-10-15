@@ -514,6 +514,63 @@ address {
     fill: #f4f4fd;
 }
 
+
+/* FOOTER BOTTOM */
+
+.fotter-bottom {
+    display: flex;
+    display: block;
+    margin-left: 80px;
+}
+
+.email-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-span {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-input {
+    width: 264px;
+    height: 40px;
+    color: #FFF;
+    font-size: 12px;
+    line-height: 2, 0;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    border: 1px solid var(--WHITE, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    padding-left: 16px;
+    margin-right: 24px;
+}
+.footer-input::placeholder {
+    color: #FFF;
+    font-size: 12px;
+    line-height: 2,0;
+    letter-spacing: 0.04em;
+}
+
+.footer-btn {
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #4D5AE5;
+    color: #FFF;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
 /* -------- */
 
 .container {
@@ -522,6 +579,8 @@ address {
     padding: 0 15px 0 15px;
     margin: 0 auto;
 }
+
+
 
 /* BACKDROP */
 
@@ -665,6 +724,46 @@ address {
     line-height: 1.16;
     letter-spacing: 0.04em;
 }
+
+.check-text {
+    color: #8E8F99;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.04em;
+    display: flex;
+}
+
+.check-text a {
+    color: #4D5AE5;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+}
+
+.modal-field-check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check-icon {
+    fill: transparent;
+    stroke: transparent;
+}
+
+.check-text-box {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 4px;
+    border: 1px solid rgba(46, 47, 66, 0.40);
+}
+
+
+
 
 .modal-form-btn {
     max-width: 169px;
