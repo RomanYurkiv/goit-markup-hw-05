@@ -415,22 +415,23 @@
 
     <!-- --------------------------- BACKDROP --------------------------- -->
 
-    <div class="backdrop ">
+    <div class="backdrop is-open">
         <div class="modal">
-            <div class="btn-wrap">
-                <button class="close-button" type="button"></button>
-                <svg class="close-button-svg">
+            <!-- <div class="btn-wrap"> -->
+            <button class="close-button" type="button">
+                <svg class="close-button-svg" width="8" height="8">
                     <use class="close-btn-svg" href="./images/icons.svg#icon-close_button" width="8px" height="8px">
                     </use>
                 </svg>
-            </div>
+            </button>
+            <!-- </div> -->
             <p class="modal-title">Leave your contacts and we will call you back</p>
             <form class="modal-form">
                 <div class="modal-field">
                     <label class="modal-lable" for="user-name">Name</label>
                     <div class="input-wrap">
                         <input class="modal-input" type="text" name="user-name" placeholder="" id="user-name" />
-                        <svg class="modal-icon" width="18" height="18">
+                        <svg class="modal-icon" width="18" height="24">
                             <use href="./images/icons.svg#icon-person"></use>
                         </svg>
                     </div>
@@ -439,7 +440,7 @@
                     <label class="modal-lable" for="user-phone">Phone</label>
                     <div class="input-wrap">
                         <input class="modal-input" type="tel" name="user-phone" placeholder="" id="user-phone" />
-                        <svg class="modal-icon" width="18" height="18">
+                        <svg class="modal-icon" width="18" height="24">
                             <use href="./images/icons.svg#icon-phone"></use>
                         </svg>
                     </div>
@@ -448,21 +449,21 @@
                     <label class="modal-lable" for="user-email">Email</label>
                     <div class="input-wrap">
                         <input class="modal-input" type="email" name="user-email" placeholder="" id="user-email" />
-                        <svg class="modal-icon" width="18" height="18">
+                        <svg class="modal-icon" width="18" height="24">
                             <use href="./images/icons.svg#icon-email"></use>
                         </svg>
                     </div>
                 </div>
-                <div class="modal-field">
-                    <label class="modal-lable" for="user-text">Comment</label>
-                    <textarea class="modal-textarea" type="text" name="user-text" placeholder="Text input"
-                        id="user-text"></textarea>
+                <div class="modal-field textarea-wrap" >
+                    <label class="modal-lable" for="user-comment">Comment</label>
+                    <textarea class="modal-textarea" type="text" name="user-comment" placeholder="Text input"
+                        id="user-comment"></textarea>
                 </div>
-                <div class="modal-field ">
-                    <input class="visually-hidden" type="checkbox" name="policy" id="policy">
-                    <label class="check-text" for="policy"><span class="check-text-box">
-                            <svg class="check-icon" width="16" height="16">
-                                <use href="./images/icons.svg#icon-checkbox_tick"></use>
+                <div class="modal-field check-wrap">
+                    <input class="input-check visually-hidden" type="checkbox" name="user-privacy" id="user-privacy" value="true">
+                    <label class="check-text" for="user-privacy"><span class="check-text-box">
+                            <svg class="check-icon" width="10" height="8">
+                                <use href="./images/icons.svg#icon-check"></use>
                             </svg>
                         </span>I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
                 </div>
