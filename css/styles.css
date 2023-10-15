@@ -532,12 +532,6 @@ address {
 
 }
 
-.email-wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .icon-span {
     width: 24px;
     height: 24px;
