@@ -98,7 +98,7 @@ a {
 }
 
 .header-link.current {
-    color:#404BBF
+    color: #404BBF
 }
 
 .header-link:hover,
@@ -523,19 +523,13 @@ address {
     margin-left: 80px;
 }
 
-.footer-form{
+.footer-form {
     display: flex;
     gap: 24px;
 }
 
-.footer-lable{
+.footer-lable {}
 
-}
-
-.icon-span {
-    width: 24px;
-    height: 24px;
-}
 
 .footer-input {
     width: 264px;
@@ -551,19 +545,21 @@ address {
     padding-left: 16px;
     margin-right: 24px;
 }
+
 .footer-input::placeholder {
     color: #FFF;
     font-size: 12px;
-    line-height: 2,0;
+    line-height: 2, 0;
     letter-spacing: 0.04em;
 }
 
 .footer-btn {
-    display: inline-flex;
-    padding: 8px 24px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    min-width: 165px;
+    height: 40px;
+    padding: 8px 24px;
     border-radius: 4px;
     border: none;
     background-color: #4D5AE5;
@@ -572,6 +568,11 @@ address {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.footer-btn-icon {
+    margin-left: 16px;
 }
 
 /* -------- */
@@ -649,7 +650,7 @@ address {
     background-color: #404BBF;
 }
 
-.close-button:focus + .close-button-svg {
+.close-button:focus+.close-button-svg {
     fill: #ffffff;
 }
 
@@ -671,7 +672,7 @@ address {
 .modal-lable {
     display: block;
     color: #8E8F99;
-    font-size: 12px;  
+    font-size: 12px;
     letter-spacing: 0.02em;
     margin-bottom: 4px;
 }
@@ -681,10 +682,11 @@ address {
     height: 40px;
     padding-left: 38px;
     border-radius: 4px;
-    border: 1px solid  rgba(46, 47, 66, 0.40); background-color: transparent;
+    border: 1px solid rgba(46, 47, 66, 0.40);
+    background-color: transparent;
     outline: transparent;
-    transition: 
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),;
+    transition:
+        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), ;
 }
 
 .modal-icon {
@@ -700,7 +702,7 @@ address {
     border-color: #4D5AE5;
 }
 
-.modal-input:focus + .modal-icon {
+.modal-input:focus+.modal-icon {
     fill: #4D5AE5;
 }
 
@@ -722,7 +724,7 @@ address {
 }
 
 .modal-textarea::placeholder {
-    color:rgba(46, 47, 66, 0.40);
+    color: rgba(46, 47, 66, 0.40);
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.04em;
