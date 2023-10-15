@@ -750,25 +750,13 @@ address {
 }
 
 .check-text {
-    display: inline-flex;
-    align-items: center;
     color: #8E8F99;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     display: flex;
     align-items: center;
-}
 
-/* Додатковий стиль для лінії під текстом */
-.text::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 1px;
-    background: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
-    margin-top: 3px;
-    /* Відступ між текстом і лінією */
 }
 
 .check-text .check-link {
