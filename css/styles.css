@@ -523,6 +523,15 @@ address {
     margin-left: 80px;
 }
 
+.footer-form{
+    display: flex;
+    gap: 24px;
+}
+
+.footer-lable{
+
+}
+
 .email-wrap {
     display: flex;
     justify-content: center;
